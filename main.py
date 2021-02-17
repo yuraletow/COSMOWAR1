@@ -45,3 +45,8 @@ while running:  # Игра работает в бесконечном цикле
 
 print("Выходим из игры")
 quit()
+
+if not 0<=image.left <=720:
+    velocity[1]=0
+if not 0<=image.top <=720:
+    velocity[1]=0
